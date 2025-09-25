@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Octavo Grado</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    /* 🎨 Estilos Navbar */
+    .navbar {
+      background-color: #02043b !important;
+    }
+
+    .navbar-brand,
+    .nav-link {
+      color: white !important;
+      font-weight: 500;
+    }
+
+    .navbar-brand:hover,
+    .nav-link:hover {
+      color: #ffcc00 !important;
+    }
+
+    /* Secciones y títulos */
+    .section-title {
+      background-color: #ffcc00;
+      color: #02043b;
+      font-weight: bold;
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #02043b;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .card {
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- 🔹 Navbar estilo Séptimo Grado -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <!-- Izquierda: Nombre del Instituto -->
+      <a class="navbar-brand" href="#">INSTITUTO TÉCNICO GUBERNAMENTAL FRANCISCO MIRANDA</a>
+
+      <!-- Botón para móvil -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+      </button>
+
+      <!-- Derecha: Enlaces -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="inicio.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="quienes_somos.html">Quiénes somos</a></li>
+          <li class="nav-item"><a class="nav-link" href="talleres.html">Talleres</a></li>
+          <li class="nav-item"><a class="nav-link" href="ciclo_basico_comun.html">Ciclo Básico Común</a></li>
+          <li class="nav-item"><a class="nav-link" href="btp.html">BTP</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 🔹 Presentación -->
+  <div class="container my-5">
+    <div class="card mb-4 mx-auto text-center" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="img/Logo itfm.jpg" class="img-fluid rounded-start" alt="Logo ITFM">
+        </div>
+        <div class="col-md-8 d-flex align-items-center">
+          <div class="card-body">
+            <h1 class="card-title">Octavo Grado</h1>
+            <p class="card-text text-muted">Ciclo Común Básico</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 🔹 Información general -->
+  <div class="container my-4">
+    <div class="card mb-3">
+      <img src="img/niños octavo.jpg" class="card-img-top" alt="Misión">
+      <div class="card-body">
+        <h5 class="card-title text-center text-primary">Grado 8° – Ciclo Común Básico</h5>
+        <p class="card-text">
+          En el octavo grado, los estudiantes continúan su formación en el ciclo común básico, 
+          con educación académica general y una introducción más sólida a la formación técnica. 
+          Aquí se fortalecen habilidades cognitivas, creativas y prácticas, fomentando la disciplina, 
+          el trabajo en equipo y la responsabilidad.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 🔹 Asignaturas -->
+  <div class="container my-5">
+    <div class="section-title">ASIGNATURAS DE OCTAVO GRADO</div>
+    <div class="row g-4">
+      <div class="col-md-3">
+        <div class="card text-center h-100 border-primary">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Español</h5>
+            <p class="card-text">Lectura, escritura y comprensión de textos literarios y académicos.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center h-100 border-success">
+          <div class="card-body">
+            <h5 class="card-title text-success">Matemáticas</h5>
+            <p class="card-text">Álgebra, geometría y aritmética para fortalecer el razonamiento lógico.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center h-100 border-warning">
+          <div class="card-body">
+            <h5 class="card-title text-warning">Ciencias Naturales</h5>
+            <p class="card-text">Fenómenos naturales, cuerpo humano y medio ambiente.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center h-100 border-danger">
+          <div class="card-body">
+            <h5 class="card-title text-danger">Inglés</h5>
+            <p class="card-text">Comunicación básica e intermedia en un segundo idioma.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-4 mt-3">
+      <div class="col-md-3">
+        <div class="card text-center h-100 border-info">
+          <div class="card-body">
+            <h5 class="card-title text-info">Ciencias Sociales</h5>
+            <p class="card-text">Historia, geografía y educación cívica.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center h-100 border-dark">
+          <div class="card-body">
+            <h5 class="card-title text-dark">Educación Física</h5>
+            <p class="card-text">Salud, ejercicio y disciplina deportiva.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center h-100 border-secondary">
+          <div class="card-body">
+            <h5 class="card-title text-secondary">Artística</h5>
+            <p class="card-text">Creatividad y expresión mediante artes visuales y escénicas.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center h-100 border-primary">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Taller</h5>
+            <p class="card-text">Actividades prácticas y técnicas básicas para el aprendizaje profesional.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br><br>
+
+  <!-- 🔹 Footer -->
+  <footer>
+    INSTITUTO TÉCNICO GUBERNAMENTAL FRANCISCO MIRANDA
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

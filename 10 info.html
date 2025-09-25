@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Décimo de Informática</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      background: url('https://scontent.ftgu1-2.fna.fbcdn.net/v/t39.30808-6/489577003_1212143374255698_4939322569388519066_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=CFlZtcIiQIwQ7kNvwE0Ksol&_nc_oc=AdlHs5RozkHAglwtQ_I0o-5N-JdgapfTkN_15KkttEGk90SKDo2-06WX_36u1_2p7u0&_nc_zt=23&_nc_ht=scontent.ftgu1-2.fna&_nc_gid=KO2vUCc_z2rxCxL0rZQM9A&oh=00_AfZfAPHWt4FaC8V6MZx-kGvW11DcGXwnGo5tmS0ftiy4gg&oe=68C4E117') no-repeat center center/cover;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      position: relative;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.5);
+    }
+    .hero h1 {
+      z-index: 1;
+      position: relative;
+      font-size: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Décimo Grado</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Especialidades
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="finanzas.html">Finanzas</a></li>
+              <li><a class="dropdown-item active" href="informatica.html">Informática</a></li>
+              <li><a class="dropdown-item" href="agroindustria.html">Agroindustria</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Portada -->
+  <section class="hero">
+    <h1>Décimo de Informática</h1>
+  </section>
+
+  <div class="container my-5">
+
+    <!-- Bienvenida -->
+    <div class="text-center mb-5">
+      <h2>Bienvenidos a la especialidad de Informática</h2>
+      <p class="lead">
+        La carrera de Informática permite a los estudiantes sumergirse en el mundo digital, desarrollando habilidades en programación, redes, 
+        diseño de software y manejo de herramientas tecnológicas.  
+        <br><br>
+        <strong>Beneficios:</strong><br>
+        - Conocimientos aplicables en cualquier campo laboral gracias al uso de la tecnología. <br>
+        - Preparación para carreras universitarias como Ingeniería en Sistemas, Ciencias de la Computación o Desarrollo de Software. <br>
+        - Posibilidades de empleo en soporte técnico, diseño web, programación, análisis de datos, entre otros. <br>
+        - Potencia la innovación y el emprendimiento tecnológico.  
+      </p>
+    </div>
+
+    
+
+    <!-- Clases -->
+    <div class="mb-5">
+      <h3 class="text-success mb-3">Clases de Informática</h3>
+      <ul class="list-group">
+        <li class="list-group-item">Educación Física</li>
+        <li class="list-group-item">Matemáticas</li>
+        <li class="list-group-item">Informática</li>
+        <li class="list-group-item">Química</li>
+        <li class="list-group-item">Biología</li>
+        <li class="list-group-item">Física Elemental</li>
+        <li class="list-group-item">Sociología</li>
+        <li class="list-group-item">Historia de Honduras</li>
+        <li class="list-group-item">Inglés</li>
+        <li class="list-group-item">Español</li>
+      </ul>
+    </div>
+
+    <!-- Docentes -->
+    <div class="mb-5">
+      <h3 class="text-warning mb-3">Docentes de Informática</h3>
+      <ul class="list-group">
+        <li class="list-group-item">Ada Ordóñez</li>
+        <li class="list-group-item">Santiago Fúnez</li>
+        <li class="list-group-item">Wilmer Guevara</li>
+        <li class="list-group-item">Jenny Sosa</li>
+        <li class="list-group-item">Wendy Andino</li>
+        <li class="list-group-item">Karen Sánchez</li>
+        <li class="list-group-item">Fátima Rodríguez</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 Instituto | Décimo de Informática</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

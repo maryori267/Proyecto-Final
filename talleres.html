@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Talleres</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    /* Navbar estilo Noveno */
+    .navbar {
+      background-color: #02043b !important;
+    }
+
+    .navbar-brand,
+    .nav-link {
+      color: white !important;
+      font-weight: 500;
+    }
+
+    .navbar-brand:hover,
+    .nav-link:hover {
+      color: #ffcc00 !important;
+    }
+
+    /* Fondo */
+    body {
+      background: url("https://tse4.mm.bing.net/th/id/OIP.be2Wv5J6gsrKnKD8bv8U2gAAAA?rs=1&pid=ImgDetMain&o=7&rm=3") no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    /* Título */
+    .titulo-talleres {
+      background-color: rgba(2, 4, 59, 0.9);
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: center;
+      margin: 20px 0;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    /* Botón Aceptar */
+    .btn-custom {
+      margin-top: 10px;
+      background-color: #02043b;
+      color: white;
+      border: none;
+    }
+
+    .btn-custom:hover {
+      background-color: #ffcc00;
+      color: #02043b;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <!-- Izquierda -->
+      <a class="navbar-brand" href="#">Francisco Miranda</a>
+
+      <!-- Botón móvil -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTalleres"
+        aria-controls="navbarTalleres" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+      </button>
+
+      <!-- Derecha -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarTalleres">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="inicio.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="quienes somos.html">Quiénes somos</a></li>
+          <li class="nav-item"><a class="nav-link" href="talleres.html">Talleres</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Ciclo Básico Común</a></li>
+          <li class="nav-item"><a class="nav-link" href="BTP.html">BTP</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Título -->
+  <div class="container">
+    <div class="titulo-talleres">
+      TIPOS DE TALLERES
+    </div>
+  </div>
+
+  <!-- Talleres -->
+  <div class="container mt-4">
+    <div class="mb-5">
+      <img src="img/TALLER.png" alt="Estructuras Metálicas" width="95%">
+      <a href="Hogar.html" class="btn btn-custom">Hogar</a>
+    </div>
+
+    <div class="mb-5">
+      <img src="img/Hogar (2).png" alt="Hogar" width="95%">
+      <a href="Estructuras metalicas.html" class="btn btn-custom">Estructuras metalicas</a>
+    </div>
+
+    <div class="mb-5">
+      <img src="img/Colegial Electricidad (1).png" alt="Electricidad" width="95%">
+      <a href="Electricidad.html" class="btn btn-custom">Electricidad</a>
+    </div>
+
+    <div class="mb-5">
+      <img src="img/madera.png" alt="Madera" width="95%">
+      <a href="madera.html" class="btn btn-custom">Madera</a>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
